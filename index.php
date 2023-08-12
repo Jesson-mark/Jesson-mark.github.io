@@ -53,7 +53,7 @@
 				<?php 
 				$py_notes_path = './md2html/python_notes/';
 				echo_notes($py_notes_path);
-				icon_more("./python_notes.php");
+				icon_more("python_notes.php");
 				?>
 			</div>
 			<div class="item">
