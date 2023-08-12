@@ -1,0 +1,5 @@
+create table msg (`id` int(20) unsigned auto_increment, 
+	`user` varchar(100) not null,
+	`content` text(5000) not null,
+	`sub_data` datetime,
+primary key (`id`));

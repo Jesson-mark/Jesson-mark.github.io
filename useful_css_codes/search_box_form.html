@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索框</title>
+    <style>
+    input,button{
+        outline: none;
+    }
+    form{
+        font-size:0;
+    }
+    .input_css{
+        height: 40px;
+        width: 110px;
+        background-color: #eee;
+        border: none;
+        border-radius: 4px 0 0 4px;
+        padding-left: 10px;
+    }
+    .button_css{
+        height: 40px;
+        width: 80px;
+        background-color: #d24040;
+        border: none;
+        position: relative;
+        border-radius: 0 4px 4px 0;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .triangle{
+        content: "";
+        display: inline-block;
+        border: 6px solid transparent;
+        border-right-color:#d24040;
+        position: absolute;
+        right:100%;
+        top:14px;
+    }
+    </style>
+</head>
+<body>
+     
+<form action="#">
+    <input class="input_css" type="text" placeholder="Search here...">
+    <button class="button_css" type="submit">
+        <i class="triangle"></i>
+        SEARCH
+    </button>
+</form>
+</body>
+</html>

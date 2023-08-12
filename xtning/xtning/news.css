@@ -1,0 +1,37 @@
+.news_list ul{
+	list-style-type: disc;
+}
+
+.news_list ul li{
+	position:relative;
+	line-height: 40px;
+	border-bottom: 1px dashed #e6e6e6;
+}
+
+.news_list ul li a{
+	text-decoration:none;
+	font-size: 18px;
+	max-width: 720px;
+	font-family: 'Microsoft YaHei';
+	color: #2F4F4F;
+	box-sizing: border-box; 
+}
+
+.news_list ul li a:before{
+	content:"";
+	position:absolute;
+	left: 0;
+	top:50%;
+	margin-top: -3px;
+	width: 7px;
+	height: 7px;
+}
+
+.news_list ul li a:hover{
+	color:#0058a8;
+}
+
+.date{
+	color:black;
+	font-size: 16px;
+}
